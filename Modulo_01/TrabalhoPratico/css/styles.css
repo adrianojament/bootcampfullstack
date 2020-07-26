@@ -1,0 +1,43 @@
+body {
+    padding: 10px;
+    background-color: white; 
+}
+
+.rgb {
+    display: grid;
+    grid-template-columns: 20% 40% 10%;
+    grid-gap: 10px;    
+    align-content: center;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 2px 0;
+    width: 70%;
+    
+}
+
+.label{
+    text-align: left;
+    font-weight: bold;    
+}
+
+.text{
+    text-align: center;
+    font-weight: bold;    
+    background-color: white;
+    border-color: black;
+    border-width: 1px;
+}
+
+.cssCorRBG{
+ 
+    display: block;
+
+    background-color: black;
+    border-color: black;
+    border-width: 1px;
+    
+    width: 397px;
+    height: 100px;
+    
+    
+}

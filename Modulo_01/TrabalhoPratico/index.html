@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trabalho Prático</title>
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/styles.css">
+</head>
+
+<body>
+    <div class="rgb">
+        <span class="label">(R) Vermelho</span>
+        <input type="range" value="0" min="0" max="255" name="iptRangeVermelho" id="iptRangeVermelho">
+        <input class="text"  disabled readonly value="0" type="text" name="iptTXTVermelho" id="iptTXTVermelho">
+    </div>
+
+    <div class="rgb">
+        <span class="label">(G) Verde</span>
+        <input type="range" value="0" min="0" max="255" name="iptRangeVerde" id="iptRangeVerde">
+        <input class="text" disabled readonly type="text" value="0" name="iptTXTVerde" id="iptTXTVerde">
+    </div>
+    <div class="rgb">
+        <span class="label">(B) Azul</span>
+        <input type="range" value="0" min="0" max="255" name="iptRangeAzul" id="iptRangeAzul">
+        <input class="text" disabled readonly type="text" value="0" name="iptTXTAzul" id="iptTXTAzul">
+    </div>
+
+    <div class="cssCorRBG" id="CorRGB">
+
+    </div>
+    <script defer src="./js/script.js"></script>
+</body>
+
+</html>
