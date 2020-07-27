@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Trabalho Pratico II</title>
+    <!--Import Google Icon Font-->
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <!-- Compiled and minified CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"
+    />
+    <link rel="stylesheet" href="./css/styles.css" />
+  </head>
+  <body>
+    <div class="titulo">
+      <h2>Pesquisa de usuários</h2>
+    </div>
+    <div id="tabLoading" class="titulo2">
+      <div class="lds-roller">
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+      </div>
+    </div>
+    <div class="pesquisa">
+      <div class="pesquisa-campo" class="input-field col s6">
+        <input
+          id="txtBuscaUsuario"
+          placeholder="Busca"
+          type="text"
+          class="validate"
+        />
+      </div>
+      <div class="pesquisa-botao">
+        <a id="btnPesquisa" class="waves-effect waves-light btn">Pesquisa</a>
+      </div>
+    </div>
+    <div class="dados-pesquisa">
+      <div class="dados-pesquisa-informacao">
+        <h4><span id="lblUsuarios">Nenhum usuário filtrado</span></h4>
+        <div id="tabPessoas"></div>
+      </div>
+      <div class="dados-pesquisa-nada"></div>
+      <div class="dados-pesquisa-informacao" class="dados-pesquisa-informacao">
+        <h4><span id="lblInformacoes">Nada ser exibido</span></h4>
+        <div id="tabDados"></div>
+      </div>
+    </div>
+
+    <!-- Compiled and minified JavaScript -->
+    <script
+      defer
+      src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"
+    ></script>
+    <script defer src="./js/people.js"></script>
+    <script defer src="./js/script.js"></script>
+  </body>
+</html>
