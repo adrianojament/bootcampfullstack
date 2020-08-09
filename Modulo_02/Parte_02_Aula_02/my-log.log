@@ -1,0 +1,65 @@
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+2020-08-09T00:44:27.690Z [my-app] error: Erro log
+2020-08-09T00:44:27.695Z [my-app] warn: Warn log
+2020-08-09T00:44:27.705Z [my-app] info: Info log
+2020-08-09T00:44:27.708Z [my-app] verbose: Verbose log
+2020-08-09T00:44:27.710Z [my-app] debug: debug log
+2020-08-09T00:44:27.711Z [my-app] silly: silly log
+2020-08-09T00:44:27.712Z [my-app] info: Hello with parameter
+2020-08-09T00:45:28.381Z [my-app] error: Erro log
+2020-08-09T00:45:28.386Z [my-app] warn: Warn log
+2020-08-09T00:45:28.398Z [my-app] info: Info log
+2020-08-09T00:45:28.400Z [my-app] verbose: Verbose log
+2020-08-09T00:45:28.402Z [my-app] debug: debug log
+2020-08-09T00:45:28.403Z [my-app] silly: silly log
+2020-08-09T00:45:28.417Z [my-app] info: Hello with parameter
+2020-08-09T00:45:59.834Z [my-app] error: Ocorreu um falha, tente mais tarde. Error message async
+2020-08-09T00:46:44.066Z [my-app] error: Ocorreu um falha, tente mais tarde. Error message text
+2020-08-09T00:49:13.318Z [my-app] error: Erro log
+2020-08-09T00:49:13.327Z [my-app] warn: Warn log
+2020-08-09T00:49:13.340Z [my-app] info: Info log
+2020-08-09T00:49:13.342Z [my-app] verbose: Verbose log
+2020-08-09T00:49:13.344Z [my-app] debug: debug log
+2020-08-09T00:49:13.345Z [my-app] silly: silly log
+2020-08-09T00:49:13.347Z [my-app] info: Hello with parameter
+2020-08-09T01:07:42.871Z [my-app] error: Erro log
+2020-08-09T01:07:42.878Z [my-app] warn: Warn log
+2020-08-09T01:07:42.892Z [my-app] info: Info log
+2020-08-09T01:07:42.898Z [my-app] verbose: Verbose log
+2020-08-09T01:07:42.935Z [my-app] debug: debug log
+2020-08-09T01:07:42.938Z [my-app] silly: silly log
+2020-08-09T01:07:42.944Z [my-app] info: Hello with parameter
+2020-08-09T01:10:05.041Z [my-app] error: Erro log
+2020-08-09T01:10:05.046Z [my-app] warn: Warn log
+2020-08-09T01:10:05.056Z [my-app] info: Info log
+2020-08-09T01:10:05.059Z [my-app] verbose: Verbose log
+2020-08-09T01:10:05.070Z [my-app] debug: debug log
+2020-08-09T01:10:05.072Z [my-app] silly: silly log
+2020-08-09T01:10:05.073Z [my-app] info: Hello with parameter
+2020-08-09T01:10:42.301Z [my-app] error: Erro log
+2020-08-09T01:10:42.306Z [my-app] warn: Warn log
+2020-08-09T01:10:42.315Z [my-app] info: Info log
+2020-08-09T01:10:42.317Z [my-app] verbose: Verbose log
+2020-08-09T01:10:42.319Z [my-app] debug: debug log
+2020-08-09T01:10:42.320Z [my-app] silly: silly log
+2020-08-09T01:10:42.322Z [my-app] info: Hello with parameter
