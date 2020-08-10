@@ -1,1 +1,40 @@
-{"nextId":1,"accounts":[]}
+{
+  "nextId": 13,
+  "accounts": [
+    {
+      "id": 1,
+      "name": "Adriano José Ament",
+      "balance": 1550.65
+    },
+    {
+      "id": 2,
+      "name": "Juliana Ongaro Ament",
+      "balance": 650
+    },
+    {
+      "id": 7,
+      "name": "Aparecida de Jesus Vaz Ament",
+      "balance": 1512.55
+    },
+    {
+      "id": 9,
+      "name": "Cassiel Adriano Ongaro Ament",
+      "balance": 150
+    },
+    {
+      "id": 10,
+      "name": "Antonio Batista Ament",
+      "balance": 1500
+    },
+    {
+      "id": 11,
+      "name": "Antonio Batista Ament",
+      "balance": 0
+    },
+    {
+      "id": 12,
+      "name": "Antonio Batista Ament",
+      "balance": 0
+    }
+  ]
+}

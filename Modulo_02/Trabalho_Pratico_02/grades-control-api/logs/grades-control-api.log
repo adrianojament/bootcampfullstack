@@ -1,0 +1,164 @@
+2020-08-10T00:35:49.334Z [grades-control-api] info: grades-control-api ONLINE
+2020-08-10T00:36:44.826Z [grades-control-api] info: grades-control-api ONLINE
+2020-08-10T00:37:12.256Z [grades-control-api] info: grades-control-api ONLINE
+2020-08-10T00:37:14.356Z [grades-control-api] info: grades-control-api ONLINE
+2020-08-10T00:37:42.461Z [grades-control-api] info: grades-control-api ONLINE
+2020-08-10T00:38:05.549Z [grades-control-api] info: grades-control-api ONLINE
+2020-08-10T00:38:16.943Z [grades-control-api] info: grades-control-api ONLINE
+2020-08-10T00:38:22.469Z [grades-control-api] info: grades-control-api ONLINE
+2020-08-10T00:39:00.087Z [grades-control-api] info: grades-control-api ONLINE
+2020-08-10T00:39:56.964Z [grades-control-api] info: grades-control-api ONLINE
+2020-08-10T00:40:52.204Z [grades-control-api] info: grades-control-api ONLINE
+2020-08-10T00:40:54.911Z [grades-control-api] info: GET /grade
+2020-08-10T00:42:40.419Z [grades-control-api] info: grades-control-api ONLINE
+2020-08-10T00:42:50.188Z [grades-control-api] info: grades-control-api ONLINE
+2020-08-10T00:45:16.329Z [grades-control-api] info: grades-control-api ONLINE
+2020-08-10T00:46:56.703Z [grades-control-api] info: grades-control-api ONLINE
+2020-08-10T00:47:54.003Z [grades-control-api] info: grades-control-api ONLINE
+2020-08-10T00:48:13.374Z [grades-control-api] info: grades-control-api ONLINE
+2020-08-10T00:48:20.374Z [grades-control-api] error: POST /grade: Student, Subject, type e value são obrigatorios
+2020-08-10T00:48:42.617Z [grades-control-api] info: grades-control-api ONLINE
+2020-08-10T00:50:41.248Z [grades-control-api] info: grades-control-api ONLINE
+2020-08-10T00:52:11.952Z [grades-control-api] info: grades-control-api ONLINE
+2020-08-10T00:52:51.233Z [grades-control-api] info: grades-control-api ONLINE
+2020-08-10T00:54:23.882Z [grades-control-api] info: grades-control-api ONLINE
+2020-08-10T00:54:34.688Z [grades-control-api] info: grades-control-api ONLINE
+2020-08-10T00:55:10.018Z [grades-control-api] info: grades-control-api ONLINE
+2020-08-10T00:55:29.762Z [grades-control-api] error: POST /grade: Assignment to constant variable.
+2020-08-10T00:55:47.855Z [grades-control-api] info: grades-control-api ONLINE
+2020-08-10T00:55:50.421Z [grades-control-api] info: grades-control-api ONLINE
+2020-08-10T00:56:24.438Z [grades-control-api] info: grades-control-api ONLINE
+2020-08-10T00:56:39.699Z [grades-control-api] info: grades-control-api ONLINE
+2020-08-10T00:56:49.257Z [grades-control-api] info: grades-control-api ONLINE
+2020-08-10T00:58:22.645Z [grades-control-api] info: grades-control-api ONLINE
+2020-08-10T00:58:29.679Z [grades-control-api] info: grades-control-api ONLINE
+2020-08-10T00:59:00.763Z [grades-control-api] info: grades-control-api ONLINE
+2020-08-10T00:59:04.344Z [grades-control-api] error: POST /grade: Date(...).toJSON is not a function
+2020-08-10T01:00:41.332Z [grades-control-api] info: grades-control-api ONLINE
+2020-08-10T01:00:47.480Z [grades-control-api] info: grades-control-api ONLINE
+2020-08-10T01:02:00.009Z [grades-control-api] info: grades-control-api ONLINE
+2020-08-10T01:02:07.882Z [grades-control-api] info: grades-control-api ONLINE
+2020-08-10T01:02:23.367Z [grades-control-api] info: grades-control-api ONLINE
+2020-08-10T01:02:25.103Z [grades-control-api] error: POST /grade: Date.Now is not a function
+2020-08-10T01:02:33.505Z [grades-control-api] error: POST /grade: Date.Now is not a function
+2020-08-10T01:02:34.264Z [grades-control-api] info: grades-control-api ONLINE
+2020-08-10T01:04:50.422Z [grades-control-api] info: grades-control-api ONLINE
+2020-08-10T01:10:56.680Z [grades-control-api] info: grades-control-api ONLINE
+2020-08-10T01:11:02.458Z [grades-control-api] error: POST /grade: data is not defined
+2020-08-10T01:11:17.452Z [grades-control-api] info: grades-control-api ONLINE
+2020-08-10T01:11:19.862Z [grades-control-api] info: grades-control-api ONLINE
+2020-08-10T01:11:43.086Z [grades-control-api] info: grades-control-api ONLINE
+2020-08-10T01:11:48.679Z [grades-control-api] info: grades-control-api ONLINE
+2020-08-10T01:15:08.065Z [grades-control-api] info: grades-control-api ONLINE
+2020-08-10T01:15:54.678Z [grades-control-api] info: grades-control-api ONLINE
+2020-08-10T01:16:30.776Z [grades-control-api] info: grades-control-api ONLINE
+2020-08-10T01:16:51.602Z [grades-control-api] info: grades-control-api ONLINE
+2020-08-10T01:17:02.870Z [grades-control-api] info: grades-control-api ONLINE
+2020-08-10T01:17:52.432Z [grades-control-api] info: grades-control-api ONLINE
+2020-08-10T01:18:14.820Z [grades-control-api] info: grades-control-api ONLINE
+2020-08-10T01:18:21.120Z [grades-control-api] info: grades-control-api ONLINE
+2020-08-10T01:20:41.190Z [grades-control-api] info: grades-control-api ONLINE
+2020-08-10T01:20:50.192Z [grades-control-api] info: grades-control-api ONLINE
+2020-08-10T01:23:16.967Z [grades-control-api] info: grades-control-api ONLINE
+2020-08-10T01:23:54.002Z [grades-control-api] info: grades-control-api ONLINE
+2020-08-10T01:24:10.699Z [grades-control-api] info: grades-control-api ONLINE
+2020-08-10T01:24:42.197Z [grades-control-api] error: PUT /grade: Student nao encontrado
+2020-08-10T01:24:50.624Z [grades-control-api] info: grades-control-api ONLINE
+2020-08-10T01:25:15.120Z [grades-control-api] info: grades-control-api ONLINE
+2020-08-10T01:25:30.155Z [grades-control-api] info: grades-control-api ONLINE
+2020-08-10T01:25:37.233Z [grades-control-api] info: grades-control-api ONLINE
+2020-08-10T01:25:51.692Z [grades-control-api] info: grades-control-api ONLINE
+2020-08-10T01:26:20.736Z [grades-control-api] info: grades-control-api ONLINE
+2020-08-10T01:26:26.367Z [grades-control-api] info: grades-control-api ONLINE
+2020-08-10T01:26:49.462Z [grades-control-api] info: grades-control-api ONLINE
+2020-08-10T01:26:53.950Z [grades-control-api] info: grades-control-api ONLINE
+2020-08-10T01:28:31.223Z [grades-control-api] info: grades-control-api ONLINE
+2020-08-10T01:29:15.978Z [grades-control-api] info: grades-control-api ONLINE
+2020-08-10T01:31:00.225Z [grades-control-api] info: grades-control-api ONLINE
+2020-08-10T01:31:39.220Z [grades-control-api] info: grades-control-api ONLINE
+2020-08-10T01:32:19.096Z [grades-control-api] info: grades-control-api ONLINE
+2020-08-10T01:32:43.901Z [grades-control-api] info: grades-control-api ONLINE
+2020-08-10T01:32:57.880Z [grades-control-api] info: grades-control-api ONLINE
+2020-08-10T01:33:29.011Z [grades-control-api] info: grades-control-api ONLINE
+2020-08-10T01:34:24.659Z [grades-control-api] info: grades-control-api ONLINE
+2020-08-10T01:35:47.337Z [grades-control-api] info: grades-control-api ONLINE
+2020-08-10T01:36:44.472Z [grades-control-api] info: grades-control-api ONLINE
+2020-08-10T01:37:33.906Z [grades-control-api] info: grades-control-api ONLINE
+2020-08-10T01:37:59.515Z [grades-control-api] info: DELETE /grade: Grade Excluida 48
+2020-08-10T01:38:34.801Z [grades-control-api] info: DELETE /grade: Grade Excluida 49
+2020-08-10T01:41:23.779Z [grades-control-api] info: grades-control-api ONLINE
+2020-08-10T01:41:35.809Z [grades-control-api] error: DELETE /grade: [object Object]
+2020-08-10T01:42:54.709Z [grades-control-api] info: grades-control-api ONLINE
+2020-08-10T01:42:59.488Z [grades-control-api] error: DELETE /grade: [object Object]
+2020-08-10T01:43:41.548Z [grades-control-api] info: grades-control-api ONLINE
+2020-08-10T01:43:43.535Z [grades-control-api] error: DELETE /grade: [object Object]
+2020-08-10T01:44:13.924Z [grades-control-api] info: grades-control-api ONLINE
+2020-08-10T01:44:16.164Z [grades-control-api] error: DELETE /grade: [object Object]
+2020-08-10T01:45:01.906Z [grades-control-api] info: grades-control-api ONLINE
+2020-08-10T01:45:04.385Z [grades-control-api] error: DELETE /grade: {"mensagem":"Student nao encontrado"}
+2020-08-10T01:45:37.863Z [grades-control-api] info: grades-control-api ONLINE
+2020-08-10T01:45:41.782Z [grades-control-api] error: DELETE /grade: Student nao encontrado
+2020-08-10T01:47:41.214Z [grades-control-api] info: grades-control-api ONLINE
+2020-08-10T01:50:09.386Z [grades-control-api] info: grades-control-api ONLINE
+2020-08-10T01:50:12.781Z [grades-control-api] info: grades-control-api ONLINE
+2020-08-10T01:50:35.952Z [grades-control-api] error: GET /grade: Student nao encontrado
+2020-08-10T01:50:40.393Z [grades-control-api] error: GET /grade: Student nao encontrado
+2020-08-10T01:50:44.708Z [grades-control-api] info: GET /grade: Grade recuperada 47
+2020-08-10T01:53:32.022Z [grades-control-api] info: grades-control-api ONLINE
+2020-08-10T01:54:53.380Z [grades-control-api] info: grades-control-api ONLINE
+2020-08-10T01:55:22.690Z [grades-control-api] info: grades-control-api ONLINE
+2020-08-10T01:55:47.408Z [grades-control-api] info: grades-control-api ONLINE
+2020-08-10T01:55:52.200Z [grades-control-api] info: GET /grade
+2020-08-10T01:58:27.396Z [grades-control-api] info: grades-control-api ONLINE
+2020-08-10T01:58:42.758Z [grades-control-api] info: grades-control-api ONLINE
+2020-08-10T01:59:34.409Z [grades-control-api] info: grades-control-api ONLINE
+2020-08-10T01:59:38.177Z [grades-control-api] error: GET /grade: Student, Subject são obrigatorios
+2020-08-10T02:02:00.481Z [grades-control-api] info: grades-control-api ONLINE
+2020-08-10T02:02:03.565Z [grades-control-api] info: grades-control-api ONLINE
+2020-08-10T02:02:08.567Z [grades-control-api] error: GET /grade: consulta is not defined
+2020-08-10T02:03:21.666Z [grades-control-api] info: grades-control-api ONLINE
+2020-08-10T02:03:23.230Z [grades-control-api] error: GET /grade: consulta is not defined
+2020-08-10T02:03:33.183Z [grades-control-api] info: grades-control-api ONLINE
+2020-08-10T02:03:34.519Z [grades-control-api] error: GET /grade: consulta is not defined
+2020-08-10T02:03:41.957Z [grades-control-api] info: grades-control-api ONLINE
+2020-08-10T02:03:56.333Z [grades-control-api] info: grades-control-api ONLINE
+2020-08-10T02:04:21.227Z [grades-control-api] info: grades-control-api ONLINE
+2020-08-10T02:04:30.107Z [grades-control-api] info: grades-control-api ONLINE
+2020-08-10T02:05:07.834Z [grades-control-api] info: grades-control-api ONLINE
+2020-08-10T02:05:09.971Z [grades-control-api] error: GET /grade: Student ou Subject não encontrado.
+2020-08-10T02:05:21.464Z [grades-control-api] info: grades-control-api ONLINE
+2020-08-10T02:07:43.779Z [grades-control-api] info: grades-control-api ONLINE
+2020-08-10T02:09:39.437Z [grades-control-api] info: grades-control-api ONLINE
+2020-08-10T02:11:39.391Z [grades-control-api] info: grades-control-api ONLINE
+2020-08-10T02:12:20.979Z [grades-control-api] error: GET /grade: consulta.reduze is not a function
+2020-08-10T02:12:28.947Z [grades-control-api] info: grades-control-api ONLINE
+2020-08-10T02:12:58.895Z [grades-control-api] info: grades-control-api ONLINE
+2020-08-10T02:13:38.864Z [grades-control-api] info: grades-control-api ONLINE
+2020-08-10T02:13:41.042Z [grades-control-api] info: grades-control-api ONLINE
+2020-08-10T02:14:45.472Z [grades-control-api] info: grades-control-api ONLINE
+2020-08-10T02:16:11.587Z [grades-control-api] info: grades-control-api ONLINE
+2020-08-10T02:16:46.976Z [grades-control-api] error: GET /grade: Subject, Type são obrigatorios
+2020-08-10T02:18:17.325Z [grades-control-api] info: grades-control-api ONLINE
+2020-08-10T02:18:27.451Z [grades-control-api] info: grades-control-api ONLINE
+2020-08-10T02:18:35.404Z [grades-control-api] info: grades-control-api ONLINE
+2020-08-10T02:20:20.929Z [grades-control-api] info: grades-control-api ONLINE
+2020-08-10T02:20:42.011Z [grades-control-api] info: grades-control-api ONLINE
+2020-08-10T02:20:57.787Z [grades-control-api] info: grades-control-api ONLINE
+2020-08-10T02:21:06.022Z [grades-control-api] info: grades-control-api ONLINE
+2020-08-10T02:23:39.766Z [grades-control-api] info: grades-control-api ONLINE
+2020-08-10T02:24:11.314Z [grades-control-api] info: grades-control-api ONLINE
+2020-08-10T02:24:25.677Z [grades-control-api] info: grades-control-api ONLINE
+2020-08-10T02:25:12.433Z [grades-control-api] info: grades-control-api ONLINE
+2020-08-10T02:25:42.958Z [grades-control-api] error: GET /grade: Student nao encontrado
+2020-08-10T02:28:43.764Z [grades-control-api] info: grades-control-api ONLINE
+2020-08-10T02:29:27.583Z [grades-control-api] info: grades-control-api ONLINE
+2020-08-10T02:29:56.173Z [grades-control-api] info: grades-control-api ONLINE
+2020-08-10T02:32:58.200Z [grades-control-api] info: grades-control-api ONLINE
+2020-08-10T02:35:25.981Z [grades-control-api] info: POST /grade: {"id":50,"student":"Roberto Achar","subject":"03 - React","type":"Fórum","value":10,"timestamp":"2020-08-10T02:35:25.976Z"}
+2020-08-10T02:36:04.202Z [grades-control-api] info: GET /grade: Grade recuperada 33
+2020-08-10T02:36:32.852Z [grades-control-api] info: PUT /grade: {"id":33,"student":"Roberto Achar","subject":"01 - JavaScript","type":"Desafio","value":15,"timestamp":"2020-08-10T02:36:32.848Z"}
+2020-08-10T02:37:30.257Z [grades-control-api] info: GET /grade: Grade recuperada 3
+2020-08-10T02:37:34.054Z [grades-control-api] info: GET /grade: Grade recuperada 32
+2020-08-10T02:37:53.664Z [grades-control-api] info: DELETE /grade: Grade Excluida 32
+2020-08-10T02:38:11.987Z [grades-control-api] error: GET /grade: Student, Subject são obrigatorios
+2020-08-10T02:38:58.398Z [grades-control-api] info: GET /grade: Grade recuperada 43
