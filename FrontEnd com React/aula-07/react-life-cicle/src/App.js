@@ -1,5 +1,6 @@
 import React, { Component, Fragment } from 'react';
 import Users from './components/Users/Users';
+import Toggle from './components/toggle/Toggle';
 
 export default class App extends Component {
   constructor() {
@@ -19,20 +20,11 @@ export default class App extends Component {
     this.setState({
       users: json.results,
     });
-    console.log('componentDidMount do App.js');
   }
 
-  componentDidUpdate() {
-    console.log('componentDidUpdate do App.js');
-  }
-
-  componentWillUnmount() {
-    console.log('componentWillUnmount do App.js');
-  }
-
-  handleShowUsers = (event) => {
+  handleShowUsers = (isChecked) => {
     this.setState({
-      showUsers: event.target.checked,
+      showUsers: isChecked,
     });
   };
 
@@ -40,13 +32,12 @@ export default class App extends Component {
     const { showUsers, users } = this.state;
     return (
       <Fragment>
-        <div className="switch">
-          <label>
-            Mostrar Usuarios
-            <input type="checkbox" onChange={this.handleShowUsers} />
-            <span className="lever"></span>
-          </label>
-        </div>
+        <h3>React LifeCycle</h3>
+        <Toggle
+          description="Mostrar usuários"
+          enabled={showUsers}
+          onToggle={this.handleShowUsers}
+        />
         <hr />
         {/* Para ocultar elemento */}
         {showUsers && <Users users={users} />}

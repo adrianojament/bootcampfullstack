@@ -1,8 +1,25 @@
 import React, { Component } from 'react';
+import User from './User';
 
 export default class Users extends Component {
+  constructor() {
+    super();
+    this.state = {
+      secondsVisible: 0,
+    };
+
+    this.interval = null;
+  }
+
   componentDidMount() {
     console.log('componentDidMount de users.js');
+
+    this.interval = setInterval(() => {
+      const { secondsVisible } = this.state;
+      this.setState({
+        secondsVisible: secondsVisible + 1,
+      });
+    }, 1000);
   }
 
   componentDidUpdate() {
@@ -11,17 +28,26 @@ export default class Users extends Component {
 
   componentWillUnmount() {
     console.log('componentWillUnmount do users.js');
+    clearInterval(this.interval);
   }
 
   render() {
     const { users } = this.props;
+    const { secondsVisible } = this.state;
 
     return (
       <div>
-        {users.map((user) => {
-          const { login, name, picture } = user;
-          return <p key={login.uuid}>{name.first}</p>;
-        })}
+        <p>Componente Users visivel por {secondsVisible} segundos</p>
+        <ul>
+          {users.map((user) => {
+            const { login, name, picture } = user;
+            return (
+              <li key={login.uuid}>
+                <User oName={name} oPicture={picture} />
+              </li>
+            );
+          })}
+        </ul>
       </div>
     );
   }
