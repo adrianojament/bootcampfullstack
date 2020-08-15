@@ -12,8 +12,6 @@ export default class Users extends Component {
   }
 
   componentDidMount() {
-    console.log('componentDidMount de users.js');
-
     this.interval = setInterval(() => {
       const { secondsVisible } = this.state;
       this.setState({
@@ -22,12 +20,7 @@ export default class Users extends Component {
     }, 1000);
   }
 
-  componentDidUpdate() {
-    console.log('componentDidUpdate do users.js');
-  }
-
   componentWillUnmount() {
-    console.log('componentWillUnmount do users.js');
     clearInterval(this.interval);
   }
 
@@ -52,5 +45,3 @@ export default class Users extends Component {
     );
   }
 }
-
-// Parei aki -> Aula 7.3 - Ciclo de vida de Class Components

@@ -1,0 +1,21 @@
+.flexRow {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  border: 1px solid lightgray;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+.population {
+  min-width: 215px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.countries {
+  min-width: 190px;
+  margin-left: 10px;
+  margin-right: 10px;
+}

@@ -1,0 +1,19 @@
+.border {
+  border: 1px solid lightgray;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+.valores {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.bars {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
