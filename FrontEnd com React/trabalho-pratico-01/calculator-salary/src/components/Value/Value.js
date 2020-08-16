@@ -2,6 +2,11 @@ import React, { Component, Fragment } from 'react';
 import css from './value.module.css';
 
 export default class Value extends Component {
+  handleOnChange = (event) => {
+    const { onHandleChange } = this.props;
+    onHandleChange(event.target.value);
+  };
+
   render() {
     let {
       tituloCampo,
@@ -10,6 +15,9 @@ export default class Value extends Component {
       ApenasInformarValor,
       Estilo,
       Id,
+      value,
+      foreColor,
+      fontBold = false,
     } = this.props;
 
     if (!tituloCampo) {
@@ -31,7 +39,14 @@ export default class Value extends Component {
               key={Id}
               type={ApenasInformarValor ? 'number' : 'text'}
               pattern={ApenasInformarValor ? '^-?[0-9]d*.?d*$' : ''}
-              disabled={!habilitaCampo}
+              readOnly={!habilitaCampo}
+              value={value}
+              onChange={this.handleOnChange}
+              style={{
+                color: `${foreColor}`,
+                fontWeight: fontBold ? 'bold' : 'normal',
+                fontSize: 14,
+              }}
             />
           </label>
         </div>
