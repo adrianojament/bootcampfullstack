@@ -8,6 +8,7 @@ export default class App extends Component {
     super();
     this.state = {
       candidates: [],
+      previousCandidates: [],
     };
     this.interval = null;
     this.URLServico = 'http://localhost:8080/votes';
@@ -17,9 +18,16 @@ export default class App extends Component {
     this.interval = setInterval(() => {
       fetch(this.URLServico).then((res) => {
         const { time } = this.state;
+        const previousVotes = this.state.candidates.map(
+          ({ id, votes, percentage }) => {
+            return { id, votes, percentage };
+          }
+        );
+
         return res.json().then((json) => {
           this.setState({
             candidates: json.candidates,
+            previousCandidates: previousVotes,
             time: time + 1,
           });
         });
@@ -28,14 +36,15 @@ export default class App extends Component {
   }
 
   render() {
-    const { candidates } = this.state;
+    const { previousCandidates: previousVotes, candidates } = this.state;
+
     if (candidates.length === 0) {
       return <Spinner description="Carregando.." />;
     }
     return (
-      <div>
+      <div className="container">
         <Header>Votação</Header>
-        <Candidates candidates={candidates} />
+        <Candidates previousVotes={previousVotes} candidates={candidates} />
       </div>
     );
   }
