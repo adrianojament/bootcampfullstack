@@ -1,0 +1,21 @@
+.goodGrade {
+  font-weight: bold;
+  color: green;
+}
+
+.badGrade {
+  font-weight: bold;
+  color: red;
+}
+
+.table {
+  margin: 20px;
+  padding: 10px;
+}
+
+.flexRow {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
