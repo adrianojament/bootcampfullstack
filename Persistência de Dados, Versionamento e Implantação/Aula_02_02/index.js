@@ -1,6 +1,5 @@
 const MongoClient = require('mongodb').MongoClient;
-const uri =
-  'mongodb+srv://user:pwd@cluster0.tqcng.gcp.mongodb.net/podCast-api?retryWrites=true&w=majority';
+const uri ="";
 const client = new MongoClient(uri, {
   useNewUrlParser: true,
   useUnifiedTopology: true,
